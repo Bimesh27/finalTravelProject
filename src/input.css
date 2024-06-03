@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+span {
+    display: inline-block;
+}
+
+.fade-at-bottom {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+}
+
+.itemss {
+    transition: none;
+}
+
+.logo {
+    transition: none;
+}
+
+.items-menu {
+    transition: none;
+}
+
+.button-start {
+    transition: none;
+}
+
+.cardss {
+    transition: none;
+}
+
+@media (min-width: 50px) {
+    .sm\:hidden {
+        display: none;
+
+    }
+
+    .sm\:text-5xl {
+        font-size: 3rem
+            /* 48px */
+        ;
+        line-height: 1;
+    }
+
+    .sm\:px-10 {
+        padding-left: 2.5rem
+            /* 40px */
+        ;
+        padding-right: 2.5rem
+            /* 40px */
+        ;
+    }
+
+    .sm\:flex-col {
+        flex-direction: column;
+    }
+
+    .sm\:order-1 {
+        order: 1;
+    }
+
+    .sm\:order-2 {
+        order: 2;
+    }
+
+    .sm\:text-4xl {
+        font-size: 2.25rem
+            /* 36px */
+        ;
+        line-height: 2.5rem
+            /* 40px */
+        ;
+    }
+        .sm\:block {
+            display: block;
+        }
+}
